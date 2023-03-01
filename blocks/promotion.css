@@ -1,0 +1,118 @@
+.promotion{
+    background-color: var(--color-green);
+    height: 604px;
+}
+.promotion__wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+}
+.promotion__description{
+    margin: 192px 0 0;
+}
+.promotion__title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin: 0 0 50px 0;
+}
+.promotion__subtitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 308px;
+    width: 100%;
+    margin: 0 0 50px 0;
+
+}
+.promotion__button{
+    width: 170px;
+    height: 40px;
+    background: var(--color-green);
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFF;
+    cursor: pointer;
+}
+.promotion__circle{
+    position: absolute;
+    width: 859px;
+    margin: 0 0 0 330px;
+}
+.promotion__circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 604px;
+}
+.promotion__figure{
+    position: absolute;
+    width: 859px;
+    height: 859px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+.promotion__figure2{
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+.promotion__img{
+    z-index: 10;
+}
+
+@media screen and (max-width:1300px) {
+    .promotion{
+        height: 450px;
+        overflow: hidden;
+    }
+    .promotion__wrapper{
+        width: 700px;
+    }
+    .promotion__description{
+        margin: 105px 0 0 0;
+    }
+    .promotion__circle{
+        width: 600px;
+    }
+    .promotion__circles{
+        height: 450px;
+    }
+    .promotion__figure{
+        width: 600px;
+        height: 600px;
+    }
+    .promotion__figure2{
+        width: 500px;
+        height: 500px;
+    }
+    .promotion__img{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .promotion__circle{
+        display: none;
+    }
+    .promotion__description{
+        margin:  0 20px;
+    }
+    .promotion__wrapper{
+        margin: 0;
+        width: auto;
+        align-items: center;
+        height: 100%;
+    }
+}

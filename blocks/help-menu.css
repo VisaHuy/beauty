@@ -1,0 +1,24 @@
+.help-menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-gray);
+}
+
+.help-menu__link{
+    margin: 0 20px 0 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.help-menu .help-menu__link:last-child{
+    margin: 0;
+}
+
+@media screen and (max-width:450px) {
+    .help-menu__link{
+        font-size: 10px;
+    }
+}

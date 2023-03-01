@@ -1,0 +1,13 @@
+@import url(./vendor/normolise.css);
+@import url(./vendor/color.css);
+
+@import url(./blocks/help-menu.css);
+@import url(./blocks/header.css);
+@import url(./blocks/number.css);
+@import url(./blocks/promotion.css);
+
+@import url(./blocks/special-offers.css);
+@import url(./blocks/card.css);
+@import url(./blocks/mail-map.css);
+
+@import url(./blocks/footer.css);
